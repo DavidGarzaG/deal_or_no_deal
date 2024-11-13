@@ -1,0 +1,19 @@
+First step:
+- Create a blank* image without number and croped images for all the numbers from the briefcases.
+- Create a script to create a bunch of training samples to know where the biggest number is. (Should we find all the numbers?)
+    - How do we write to an image?
+- Store the images inside a folder, remember the order when created and the desired output of the model.
+
+Second step:
+- Train a model to know the position of the briefcases
+
+Third step: 
+- Figure how to feed a video into another model?
+- Train a model frame by frame to follow the position of the briefcase?
+
+Fourth step:
+- Ensure the model is robust.
+- Maybe generate more samples by altering angles or quality
+
+Fifth step:
+- Test program videoing the screen with the phone.
